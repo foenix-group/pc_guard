@@ -1,0 +1,127 @@
+.open-button2 {
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    left: 23px;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.open-button2 img {
+    width: 60px;
+    height: 60px;
+}
+
+.chat-popup2 {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 15px;
+    border: 1px solid red;
+    z-index: 9;
+}
+
+.form-container2 {
+    max-width: 375px;
+    max-height: 450px;
+    padding: 10px;
+    background-color: #86d7f0;
+}
+
+.form-container2 textarea {
+    width: 230px;
+    padding: 3px;
+    max-height: 40px;
+    border: 1px solid gray;
+    background: #f1f1f1;
+    resize: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.form-container2 textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container2 .btnsend {
+    background-color: #51ff00;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    opacity: 0.9;
+    background: url("../img/send.png") center/cover;
+}
+
+.form-container2 .custom-file {
+    width: 30px;
+    height: 30px;
+    background: url("../img/document.png") center/cover;
+}
+
+.form-container2 .mes {
+    text-align: right;
+}
+
+.form-container2 .cancel {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.form-container2 .btn:hover,
+.open-button2:hover {
+    opacity: 1;
+}
+
+#container {
+    width: 40%;
+    background: white;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#chat_box {
+    width: 100%;
+    /* background: url(../img/pat.png); */
+}
+
+#chat_data {
+    background-color: #829ddf;
+    width: 260px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#chat_img img {
+    width: 55px;
+    height: 55px;
+}
+
+#box_chat {
+    display: grid;
+    /* grid-template-columns: repeat(4, 2fr); */
+    grid-template-areas: 'box-2 box-1';
+    grid-gap: 1rem;
+}
+
+#chat_info2 {
+    max-height: 230px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.signup2 {
+    display: none;
+}
